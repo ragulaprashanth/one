@@ -41,7 +41,7 @@
         </build>
         
             <distributionManagement
-               <!--  <repository>-->
+              
                        <id>Tomcat</id>
                        <url>http:192.168.20.193:6042/manager/text</url> 
                   <!--</repository>-->
