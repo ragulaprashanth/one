@@ -46,6 +46,6 @@
                       <name>Tomcatdeploy</name>
                       <url>http://192.168.20.193:6042/manager</url>
               </snapshotRepository>
-          <distributionManagement>
+          </distributionManagement>
 
 </project>
