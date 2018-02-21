@@ -18,6 +18,20 @@
                                         <scanIntervalSeconds>0</scanIntervalSeconds>
                                 </configuration>
                         </plugin>
+                        
+                        <plugin>
+                           <groupId>org.codehaus.mojo</groupId>
+                           <artifactId>tomcat-maven-plugin</artifactId>
+                           <configuration>
+                                <url>http:192.168.20.193:6042/manager/text</url>
+                                <server>Tomcat</server>
+                                <username>tomdock</username>
+                                <password>123456</password>
+                                <path>/tomcat8/webapps</path>
+                           </configuration>
+                       </plugin>
+                        
+                        
                         <plugin>
                                 <groupId>org.apache.maven.plugins</groupId>
                                 <artifactId>maven-war-plugin</artifactId>
