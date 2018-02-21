@@ -35,6 +35,9 @@
                           </goals> 
                            <configuration>
                                 <file>target/hello-world-war-1.0.0.war</file>
+				 <groupId>org.apache.tomcat.maven</groupId>
+	                         <artifactId>tomcat7-maven-plugin</artifactId>
+	                         <version>2.2</version>
                                 <url>http:192.168.20.193:6042/manager/</url>
                                 <server>Tomcat</server>
                                <!-- <username>tomdock</username>
