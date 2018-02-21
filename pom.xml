@@ -41,11 +41,10 @@
         </build>
         
             <distributionManagement
-                 <repository>
+               <!--  <repository>-->
                        <id>Tomcat</id>
                        <url>http:192.168.20.193:6042/manager/text</url> 
-                       <path>/tomcat8/webapps</path>
-                  </repository>
+                  <!--</repository>-->
             </distributionManagement>
 
 </project>
