@@ -62,7 +62,7 @@
                <repository>
                    <id>Tomcat</id>
                       <name>Tomcatdeploy</name>
-                      <url>http://192.168.20.193:6042/manager</url>
+                      <url>http://192.168.20.193:6042/manager/html</url>
               </repository>
           </distributionManagement>
 
