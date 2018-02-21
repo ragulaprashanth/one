@@ -57,7 +57,7 @@
                         </plugin>
                 </plugins>
                 
-                <repositories>
+     <repositories>
          <repository>
          <id>central</id>
          <name>Central Repository</name>
