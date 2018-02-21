@@ -10,11 +10,11 @@
 
         <build>
                <plugins>
-                       <!--  <plugin>
+                       <plugin>
                            <groupId>org.apache.tomcat.maven</groupId>
                           <artifactId>tomcat8-maven-plugin</artifactId>
                           <version>3.0-r1756463</version>
-                       </plugin>-->
+                       </plugin>
                         
                         <plugin>
                                 <groupId>org.mortbay.jetty</groupId>
