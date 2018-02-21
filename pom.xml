@@ -40,11 +40,12 @@
                 </plugins>
         </build>
         
-            <distributionManagement
-              
-                       <id>Tomcat</id>
-                       <url>http:192.168.20.193:6042/manager/text</url> 
-                  <!--</repository>-->
-            </distributionManagement>
+           <distributionManagement>
+               <snapshotRepository>
+                   <id>InternalSnapshots</id>
+                      <name>Tomcat</name>
+                      <url>http://192.168.20.193:6042/manager</url>
+              </snapshotRepository>
+          <distributionManagement>
 
 </project>
