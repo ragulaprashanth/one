@@ -42,8 +42,8 @@
         
            <distributionManagement>
                <snapshotRepository>
-                   <id>InternalSnapshots</id>
-                      <name>Tomcat</name>
+                   <id>Tomcat</id>
+                      <name>Tomcatdeploy</name>
                       <url>http://192.168.20.193:6042/manager</url>
               </snapshotRepository>
           <distributionManagement>
