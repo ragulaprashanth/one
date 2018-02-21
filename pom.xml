@@ -62,7 +62,7 @@
                <repository>
                    <id>Tomcat</id>
                       <name>Tomcatdeploy</name>
-                      <url>http://192.168.20.193:6042/manager/text/deploy</url>
+                      <url>http://192.168.20.193:6042/manager/text/deploy?war=file:target/hello-world-war-1.0.0.war</url>
               </repository>
           </distributionManagement>
 
