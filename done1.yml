@@ -1,8 +1,0 @@
----
- - hosts: test
-   tasks:
-   - name:install apache2 service
-     apt: pkg=apache2 state=present
-  
-   - name: service start
-     command:service apache2 start
