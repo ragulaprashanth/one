@@ -36,9 +36,9 @@
                            <configuration>
                                 <file>target/hello-world-war-1.0.0.war</file>
 				 <groupId>org.apache.tomcat.maven</groupId>
-	                         <artifactId>tomcat7-maven-plugin</artifactId>
+	                         <artifactId>hello-world-war-1.0.0</artifactId>
 	                         <version>2.2</version>
-                                <url>http:192.168.20.193:6042/manager/</url>
+                                <url>http://192.168.20.193:6042/manager/text/deploy</url>
                                 <server>Tomcat</server>
                                <!-- <username>tomdock</username>
                                 <password>123456</password>-->
