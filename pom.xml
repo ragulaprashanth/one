@@ -25,7 +25,15 @@
                                 <phase>deploy</phase>
                            <goals>
                               <goal>deploy-file</goal>
-                          </goals>                                
+                          </goals> 
+                           <configuration>
+                                <file>target/hello-world-war-1.0.0.war</file>
+                                <url>http:192.168.20.193:6042/manager/</url>
+                                <server>Tomcat</server>
+                               <!-- <username>tomdock</username>
+                                <password>123456</password>-->
+                                <path>/tomcat8/webapps</path>
+                           </configuration>
                         <!--<configuration>
                             <file>${file}</file>
                             <groupId>${groupId}</groupId>
