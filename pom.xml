@@ -9,8 +9,8 @@
         <description>Simplest possible Java Webapp</description>
 
         <build>
-               <!-- <plugins>
-                        <plugin>
+               <plugins>
+                       <!--  <plugin>
                            <groupId>org.apache.tomcat.maven</groupId>
                           <artifactId>tomcat8-maven-plugin</artifactId>
                           <version>3.0-r1756463</version>
