@@ -59,11 +59,11 @@
         </build>
         
           <distributionManagement>
-               <snapshotRepository>
+               <repository>
                    <id>Tomcat</id>
                       <name>Tomcatdeploy</name>
                       <url>http://192.168.20.193:6042/manager</url>
-              </snapshotRepository>
+              </repository>
           </distributionManagement>
 
 </project>
