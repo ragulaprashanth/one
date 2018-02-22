@@ -26,7 +26,7 @@
 				<configuration>
 	                         	<url>http://192.168.20.193:6042/manager/text</url>
 					<server>Tomcat</server>
-					<path>/tom</path>
+					<path>/tomdock</path>
 					</configuration>
                                <!-- <configuration>
                                     <host>192.168.20.193</host>
