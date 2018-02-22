@@ -16,7 +16,7 @@
                            <!-- <groupId>net.fpic</groupId>-->
                             <!--<artifactId>tomcat-deployer-plugin</artifactId>-->
 			     <artifactId>tomcat8-maven-plugin</artifactId>
-                            <version>2.2</version>
+                           <!-- <version>2.2</version>-->
                               <executions>
                               <execution>
                                   <id>Tomcat</id>
