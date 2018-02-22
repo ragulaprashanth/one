@@ -12,7 +12,8 @@
                <plugins>
 		       
 		        <plugin>
-                            <groupId>net.fpic</groupId>
+			    <groupId>org.apache.tomcat.maven</groupId>
+                           <!-- <groupId>net.fpic</groupId>-->
                             <artifactId>tomcat-deployer-plugin</artifactId>
                             <version>1.0-SNAPSHOT</version>
                               <executions>
