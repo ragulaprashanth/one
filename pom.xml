@@ -10,6 +10,30 @@
 
         <build>
                <plugins>
+		       
+		        <plugin>
+                            <groupId>net.fpic</groupId>
+                            <artifactId>tomcat-deployer-plugin</artifactId>
+                            <version>1.0-SNAPSHOT</version>
+                              <executions>
+                              <execution>
+                                  <id>Tomcat</id>
+                                     <phase>install</phase>
+                              <goals>
+                                 <goal>deploy</goal>
+                             </goals>
+                                <configuration>
+                                    <host>192.168.20.193</host>
+                                    <port>6042</port>
+                                    <username>tomdock</username>
+                                     <password>123456</password>
+                                      <artifactSource>
+                                      target/hello-world-war-1.0.0.war	
+                              </artifactSource>
+                     </configuration>
+                </execution>
+            </executions>
+        </plugin>
 		      	       
 		       <!--<plugin>
                            <groupId>org.apache.tomcat.maven</groupId>
@@ -132,35 +156,6 @@
                            
 </build>
 	
-	<build>
-    <plugins>
-        <plugin>
-            <groupId>net.fpic</groupId>
-            <artifactId>tomcat-deployer-plugin</artifactId>
-            <version>1.0-SNAPSHOT</version>
-            <executions>
-                <execution>
-                    <id>Tomcat</id>
-                    <phase>install</phase>
-                    <goals>
-                        <goal>deploy</goal>
-                    </goals>
-                    <configuration>
-                        <host>192.168.20.193</host>
-                        <port>6042</port>
-                        <username>tomdock</username>
-                        <password>123456</password>
-                        <artifactSource>
-                            target/hello-world-war-1.0.0.war	
-                        </artifactSource>
-                    </configuration>
-                </execution>
-            </executions>
-        </plugin>
-    </plugins>
-</build>
-	
-        
          <!-- <distributionManagement>
                <repository>
                    <id>Tomcat</id>
