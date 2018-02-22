@@ -27,7 +27,7 @@
 				<configuration>
 	                         	<url>http://192.168.20.193:6042/manager/text</url>
 					<server>Tomcat</server>
-					<path>/today</path>
+					<path>/tom8</path>
 					</configuration>
                                <!-- <configuration>
                                     <host>192.168.20.193</host>
