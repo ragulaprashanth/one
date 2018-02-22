@@ -24,7 +24,12 @@
                               <goals>
                                  <goal>deploy</goal>
                              </goals>
-                                <configuration>
+				<configuration>
+	                         	<url>http://192.168.20.193/manager/html</url>
+					<server>Tomcat</server>
+					<path>/tomcat8/webapps</path>
+					</configuration>
+                               <!-- <configuration>
                                     <host>192.168.20.193</host>
                                     <port>6042</port>
                                     <username>tomdock</username>
@@ -32,7 +37,7 @@
                                       <artifactSource>
                                       target/hello-world-war-1.0.0.war	
                               </artifactSource>
-                     </configuration>
+                     </configuration>-->
                 </execution>
             </executions>
         </plugin>
