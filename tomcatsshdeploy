@@ -1,0 +1,36 @@
+pipeline {
+   agent any
+   tools {
+      jdk 'ORACLE_JAVA'
+      maven 'MAVEN 3.5.2'
+    }
+    stages {
+     stage ('github') {
+         steps {
+             checkout([
+                $class: 'GitSCM',
+                branches: [[name: '*/master']],
+                userRemoteConfigs: [[url: 'https://github.com/mitreid-connect/simple-web-app.git']]]) 
+              }
+          }
+     stage ('environments') {
+        steps {
+           sh '''
+                echo "PATH=${PATH}"
+                echo "M2_HOME"=${M2_HOME}
+                echo  "JAVA_HOME=${JAVA_HOME}"
+                '''
+        }
+      }
+     stage ('build') {
+           steps {
+             sh 'mvn -Dmaven.test.failure.ignore=true clean install'
+          }
+       }
+     stage ('Deploy') {
+        steps {
+           sh 'scp -P 5555 /root/.jenkins/workspace/pipe/target/simple-web-app.war root@192.168.20.193:/tomcat8/webapps'
+           }
+        }   
+   }
+}

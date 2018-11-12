@@ -1,0 +1,46 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Mon, 28 May 2018 05:43:04 GMT
+Content-Type: text/html
+Content-Length: 1315
+Connection: keep-alive
+Vary: Accept-Encoding
+Last-Modified: Tue, 22 May 2018 14:38:12 GMT
+ETag: "523-56ccc5e230811"
+Accept-Ranges: bytes
+Vary: Accept-Encoding
+
+
+
+
+
+--add-module="$(CURDIR)/debian/modules/ngx_cache_purge-2.3" 
+ --add-module="$(CURDIR)/debian/modules/incubator-pagespeed-ngx-1.11.33.2-beta" 
+ --add-module="$(CURDIR)/debian/modules/headers-more-nginx-module-0.30" 
+
+
+nginx-1.13.12/
+
+
+
+incubator-pagespeed-ngx-release-1.11.33.3-beta
+
+
+
+
+
+
+
+
+
+
+https://www.bountysource.com/issues/57655397-getting-error-on-make-command-ubuntu-18-04
+
+
+
+
+
+
+
+
+https://www.tecmint.com/install-ngx_pagespeed-to-optimize-nginx-performance-on-ubuntu/
