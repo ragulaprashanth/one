@@ -1,0 +1,6 @@
+https://gianarb.it/blog/orbiter-docker-swarm-autoscaler
+https://github.com/sahajsoft/docker-swarm-service-autoscaler/tree/master/example/prometheus
+
+https://www.youtube.com/watch?v=P1KTjvranYI
+ https://www.youtube.com/watch?v=Q1xfmfML8ok
+https://gianarb.it/blog/orbiter-docker-swarm-autoscaler https://github.com/gianarb/orbiter
